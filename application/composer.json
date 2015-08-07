@@ -1,5 +1,7 @@
 {
     "require": {
-        "monolog/monolog": "1.2.*"
+        "monolog/monolog": "1.2.*",
+        "philo/laravel-blade": "3.*",
+        "ahir/facades": "1.*"
     }
 }
