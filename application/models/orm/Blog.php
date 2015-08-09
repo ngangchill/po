@@ -14,7 +14,9 @@ class Blog extends \Forhad\Orm\Model {
     function owner() {
         return $this->belongsTo('User');
     }
-
+    function category() {
+            return $this->belongsTo('Category');
+        }
     function comments() {
         return $this->hasMany('Comment');
     }

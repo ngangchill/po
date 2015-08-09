@@ -15,7 +15,7 @@ namespace Orm;
  */
 class Comment extends \Forhad\Orm\Model {
 
-    protected $table = "blogs";
+    protected $table = "comments";
 
     function owner() {
         return $this->belongsTo('User');
