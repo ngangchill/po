@@ -11,3 +11,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |	http://codeigniter.com/user_guide/general/hooks.html
 |
 */
+$hook['pre_controller'] = array(
+    'class' => 'PHPW',
+    'function' => 'reload',
+    'filename' => 'phpw.php',
+    'filepath' => 'hooks'
+);
+

@@ -2,6 +2,18 @@
     "require": {
         "monolog/monolog": "1.2.*",
         "philo/laravel-blade": "3.*",
-        "ahir/facades": "1.*"
+        "ahir/facades": "1.*",
+        "filp/whoops": "1.1.*",
+        "mobiledetect/mobiledetectlib": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Forhad\\": "fab",
+            "Model\\": "models/elequent/"
+        }
+    },
+    "autoload": {
+        "classmap": ["facades/"]
     }
+    
 }
