@@ -10,3 +10,4 @@ let's start it..
     4. ahir/facades
     5. filp/whoops (for debugging)
     6. mobiledetect/mobiledetectlib
+    7. Elegant ORM [BETA]
