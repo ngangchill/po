@@ -6,4 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'Philo\\Blade\\' => array($vendorDir . '/philo/laravel-blade/src'),
+    'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
+    'Illuminate\\View\\' => array($vendorDir . '/illuminate/view'),
+    'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
+    'Illuminate\\Filesystem\\' => array($vendorDir . '/illuminate/filesystem'),
+    'Illuminate\\Events\\' => array($vendorDir . '/illuminate/events'),
+    'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
+    'Illuminate\\Container\\' => array($vendorDir . '/illuminate/container'),
 );

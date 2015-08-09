@@ -6,4 +6,16 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Asset' => $baseDir . '/facades/Asset.php',
+    'DB' => $baseDir . '/facades/DB.php',
+    'Json' => $baseDir . '/facades/Json.php',
+    'Mobile_Detect' => $vendorDir . '/mobiledetect/mobiledetectlib/Mobile_Detect.php',
+    'Tag' => $baseDir . '/facades/Tag.php',
+    'Trevor' => $baseDir . '/facades/Trevor.php',
+    'UIkit' => $baseDir . '/facades/UIkit.php',
+    'View' => $baseDir . '/facades/View.php',
+    'Whoops\\Module' => $vendorDir . '/filp/whoops/src/deprecated/Zend/Module.php',
+    'Whoops\\Provider\\Zend\\ExceptionStrategy' => $vendorDir . '/filp/whoops/src/deprecated/Zend/ExceptionStrategy.php',
+    'Whoops\\Provider\\Zend\\RouteNotFoundStrategy' => $vendorDir . '/filp/whoops/src/deprecated/Zend/RouteNotFoundStrategy.php',
+    'Zsearch' => $baseDir . '/facades/Zsearch.php',
 );

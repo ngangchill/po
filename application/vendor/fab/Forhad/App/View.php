@@ -26,7 +26,7 @@ class View {
      */
     public function make($file = false) {
         // determine the vie file
-        $view = $file ? $file : ci()->router->directory.'.'.ci()->router->fetch_class() . '.' . ci()->router->fetch_method();
+        $view = $file ? $file : ci()->router->directory.ci()->router->fetch_class() . '.' . ci()->router->fetch_method();
         // banchmark 
         ci()->benchmark->mark('code_end');
         ci()->data['elapsed_time'] = ci()->benchmark->elapsed_time('total_execution_time_start', 'code_end');
