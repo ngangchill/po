@@ -9,7 +9,7 @@
     "autoload": {
         "psr-0": {
             "Forhad\\": "fab",
-            "Model\\": "models/elequent/"
+            "Model\\": "models/orm/"
         }
     },
     "autoload": {

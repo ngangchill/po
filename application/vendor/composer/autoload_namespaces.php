@@ -13,5 +13,5 @@ return array(
     'Detection' => array($vendorDir . '/mobiledetect/mobiledetectlib/namespaced'),
     'Ahir\\Facades' => array($vendorDir . '/ahir/facades/src'),
     'Forhad' => array($vendorDir . '/fab'),
-    'Model' => array($baseDir.'/models/elequent'),
+    'Model' => array($baseDir.'/models/orm'),
 );
